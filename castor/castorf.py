@@ -50,6 +50,7 @@ while ("castor" not in tmp):
 	tmp = re.sub("cavalheiro","castor",tmp, flags=re.I)
 	tmp = re.sub("jovem","castor",tmp, flags=re.I)
 	tmp = re.sub("quarentao","castor",tmp, flags=re.I)
+	tmp = re.sub("cinquentona","castora",tmp, flags=re.I)
 	tmp = re.sub("antonio","castor",tmp, flags=re.I)
 	tmp = re.sub("paulo","castor",tmp, flags=re.I)
 	tmp = re.sub("sou h","castor",tmp, flags=re.I)
